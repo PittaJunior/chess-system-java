@@ -1,10 +1,14 @@
 package application;
 
+import boardGame.Position;
+
 public class Program {
 	public static void main(String[] args) {
 		
 		
-		System.out.println("Olá Mundo, Cristo te Ama");
+		Position pos = new Position(2,5);
+		
+		System.out.println(pos);
 	}
 
 }
